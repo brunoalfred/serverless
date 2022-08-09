@@ -3,5 +3,5 @@
 
 
 def handler(event, context):
-	return event.name
+	return event["name"]
 	

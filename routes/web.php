@@ -16,7 +16,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return HelloWorld::execute(['name' => 'Bruno'])->body();
-
     // return Browser::execute()->body();
+
+    // run many functions in parralel 
+
+    // $result = HelloWorld::executeMany([
+    //     ['name' => 'Bruno'],
+    //     ['name' => 'Bruno'],
+    //     ['name' => 'Bruno'],
+    //     ['name' => 'Bruno'],
+    //     ['name' => 'Bruno'],
+    //     ['name' => 'Bruno'],
+    // ]);
+
+    // return collect($result)->map->body();
+
+    $result = HelloWorld::executeAsync(['name' => 'Briella'])->settled();
+
+    return $result->body();
+
 });

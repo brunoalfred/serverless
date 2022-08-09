@@ -8,3 +8,8 @@ Note: Some usefull links
 - https://github.com/mthenw/awesome-layers
 - https://stefanzweifel.io/posts/2022/06/21/introducing-sidecar-browsershot
 - https://github.com/stefanzweifel/sidecar-browsershot
+- https://docs.aws.amazon.com/lambda/index.html
+- https://vercel.com/docs/concepts/functions/serverless-functions
+- https://www.netlify.com/blog/tags/serverless
+- https://sst.dev/
+- https://github.com/hammerstonedev/sidecar-inertia
