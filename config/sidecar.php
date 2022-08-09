@@ -11,7 +11,7 @@ return [
         // \App\Sidecar\RenderOgImage::class,
         // \App\Sidecar\ProcessThumbnail::class,
         \App\Sidecar\HelloWorld::class, 
-        \App\Sidecar\Browser::class,
+        // \App\Sidecar\Browser::class,
     ],
 
     /*

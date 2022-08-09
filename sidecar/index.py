@@ -3,5 +3,5 @@
 
 
 def handler(event, context):
-	return "Hello from python"
+	return event.name
 	

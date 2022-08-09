@@ -38,12 +38,28 @@ class Browser extends LambdaFunction
 	 * List of layers supported:  
 	 * https://github.com/mthenw/awesome-layers
 	 * 
+	 * The architecture appears as:
+	 * 
+	 * 
+	 * Our code
+	 * ^------------------------
+	 * Chrome AWS Lambda layer
+	 * ^------------------------
+	 * Runtime (Node)
+	 * ^------------------------
+	 * 
+	 * While using layers there is no need to use NODE_MODULES
+	 * in our lambda function since they are already added 
+	 * ontop of our runtime. 
+	 * ie, we can delete node_modules,package.json, ...
+	 * 
+	 * 
 	 * */
 
 	public function layers()
 	{
 		return [
-			'arn:aws:lambda:us-east-1:764866452798:layer:chrome-aws-lambda:4'
+			'arn:aws:lambda:us-east-2:764866452798:layer:chrome-aws-lambda:31'
 		];
 	}
 }

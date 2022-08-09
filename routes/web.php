@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // return HelloWorld::execute(['name' => 'Bruno'])->body();
+    return HelloWorld::execute(['name' => 'Bruno'])->body();
 
-    return Browser::execute();
+    // return Browser::execute()->body();
 });
