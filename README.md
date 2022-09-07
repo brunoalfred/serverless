@@ -12,4 +12,5 @@ Note: Some usefull links
 - https://vercel.com/docs/concepts/functions/serverless-functions
 - https://www.netlify.com/blog/tags/serverless
 - https://sst.dev/
+- https://www.serverless.com
 - https://github.com/hammerstonedev/sidecar-inertia
